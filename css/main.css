@@ -87,6 +87,122 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/*----------base header - footer styles----------*/
+   header,
+   footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+/*----------header styles----------*/
+   header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+   header .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+   .header-divider {
+
+   }
+
+   header,
+   nav {
+
+   }
+
+/*----------main styles----------*/
+
+   main {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+   .hero-area {
+     
+   }
+
+   aside {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+   article {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+   main .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+   .form-description {
+
+   }
+
+   .form {
+
+   }
+
+   .features {
+
+   }
+
+   p .features-item-description {
+
+   }
+
+  .reviews {
+    
+   }
+
+   /*----------footer styles----------*/
+
+   footer .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column wrap;
+   }
+
+   .contact {
+
+   }
+
+   .social {
+
+   }
+
+   .social-icons {
+
+   }
+
+   .copyright {
+
+   }
+
+ /*----------media queries----------*/   
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
