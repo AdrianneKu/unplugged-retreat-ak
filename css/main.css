@@ -156,7 +156,6 @@ textarea {
    .form {
      width: 90%;
      margin: 0 20px;
-
    }
 
    .features {
@@ -281,8 +280,6 @@ textarea {
      margin: 20px 0;
    }
 
- /*----------media queries----------*/   
-
 
 /* ==========================================================================
    Helper classes
@@ -372,8 +369,114 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+/*----------tablet styles----------*/
+   @media only screen and (min-width: 768px) {
+     .content-wrapper {
+     width: 83%;
+   }
+
+   .hero-area h1 {
+     width: 52%;
+   }
+   
+   header {
+     display: flex;
+     justify-content: space-evenly;
+   }
+
+   header .content-wrapper {
+     display: flex;
+     justify-content: space-between;
+     flex-flow: row nowrap;
+   }
+
+   header nav ul {
+     display: flex;
+     justify-content: space-evenly;
+   }
+
+   aside .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+   }
+
+   .form-description {
+     flex-basis: 42%;
+     margin: 0;
+   }
+
+   .form {
+     flex-basis: 42%;
+   }
+
+    .features article {
+     display: flex;
+     justify-content: space-between;
+     flex-flow: row nowrap;
+     flex-basis: 26%;
+     padding: 0 26px;
+   }
+
+   .features h2 {
+     width: 65%;
+   }
+
+   .reviews .content-wrapper {
+
+   }
+
+   .reviews article {
+     display: flex;
+     justify-content: space-around;
+   }
+
+   .mission .content-wrapper h2 {
+     width: 55%;
+   }
+
+   .mission-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+   }
+
+   .mission-content p {
+     width: 42%;
+   }
+
+   .contact-section .content-wrapper h2 {
+     width: 40%;
+   }
+
+   .contact-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .faq .content-wrapper {
+     justify-content: space-between;
+   }
+
+   .faq  h2{
+     width: 100%;
+   }
+
+   .faq-content {
+     flex-basis: 40%;
+   }
+
+   .footer-content {
+     display: flex;
+     justify-content: space-around;
+   }
+
+}
+
+/*----------desktop styles----------*/
+   @media only screen and (min-width: 1200px) {
+
 }
 
 @media print,
