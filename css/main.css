@@ -94,7 +94,9 @@ textarea {
    body {
      font-family: 'Open Sans', sans-serif;
      font-size: 1em;
+     color: #ffffff;
      line-height: 1.5em;
+     background-color: #202322;
    }
 
     ul,
@@ -107,17 +109,26 @@ textarea {
       text-decoration: none;
     }
 
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.5em;
+      line-height: 1.25em;
+      font-weight: 500;
+    }
+
     h2 {
       font-family: 'Poppins', sans-serif;
       font-size: 2em;
       line-height: 1.5em;
+      font-weight: 500;
     }
 
     h3,
     h4 {
       font-family: 'Poppins', sans-serif;
-      font-size: 1.5em;
-      line-height: 1em;
+      font-size: 1.375em;
+      line-height: 1.25em;
+      font-weight: 500;
     }
 
     p {
@@ -138,7 +149,7 @@ textarea {
 
    .content-wrapper {
      width: 90%;
-     margin: 50px 0;
+     margin: 50px 20px;
    }
 
 /*----------base header - footer styles----------*/
@@ -197,15 +208,11 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #527158;
    }
 
    .form-description {
      margin: 27px 0;
-   }
-
-   .form {
-     width: 90%;
-     margin: 0 20px;
    }
 
    .features {
@@ -230,7 +237,7 @@ textarea {
    }
 
    .features article {
-     width: 63%;
+     width: 70%;
      margin: 30px 0;
      text-align: center;
    }
@@ -243,7 +250,7 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    
+    background-color: #2a423a;
    }
 
    .reviews h2 {
@@ -251,7 +258,7 @@ textarea {
    }
 
    .reviews h3 {
-     width: 55%;
+     width: 65%;
      margin: 20px 0;
    }
 
@@ -260,6 +267,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #527158;
    }
 
    .contact-section {
@@ -267,6 +275,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     background-color: #2a423a;
    }
 
    .contact-content p {
@@ -299,8 +308,11 @@ textarea {
    }
 
    footer .content-wrapper {
-     width: 55%;
      margin: 50px 0;
+   }
+
+   .footer-content {
+     text-align: center;
    }
 
    footer p {
@@ -309,10 +321,6 @@ textarea {
 
    footer .contact {
      margin-bottom: 50px;
-   }
-
-   .social {
-
    }
 
    footer .social-icons {
@@ -331,6 +339,32 @@ textarea {
      margin: 20px 0;
    }
 
+  /*----------form styles----------*/
+  aside .form {
+    margin-top: 30px;
+}
+ 
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+}
+ 
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 /* ==========================================================================
    Helper classes
