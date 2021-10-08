@@ -167,7 +167,7 @@ textarea {
    .features .features-items {
      display: flex;
      justify-content: center;
-     align-items: center;
+     align-items: flex-start;
      flex-flow: row wrap;
    }
 
@@ -371,6 +371,7 @@ textarea {
 
 /*----------tablet styles----------*/
    @media only screen and (min-width: 768px) {
+
      .content-wrapper {
      width: 83%;
    }
@@ -464,7 +465,7 @@ textarea {
    }
 
    .faq-content {
-     flex-basis: 40%;
+     flex-basis: 46%;
    }
 
    .footer-content {
@@ -476,6 +477,78 @@ textarea {
 
 /*----------desktop styles----------*/
    @media only screen and (min-width: 1200px) {
+
+    .content-wrapper {
+     width: 83%;
+   }
+
+    .hero-area h1 {
+     width: 55%;
+   }
+
+   aside .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+   }
+
+   .form-description {
+     flex-basis: 27%;
+     margin: 0;
+   }
+
+   .form {
+     flex-basis: 27%;
+   }
+
+   .features h2 {
+     width: 55%;
+   }
+
+   .features article {
+     display: flex;
+     justify-content: center;
+     flex-flow: row nowrap;
+     flex-basis: 13%;
+     padding: 0 80px;
+   }
+
+   .mission .content-wrapper h2 {
+     width: 73%;
+   }
+
+   .mission-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+   }
+
+   .mission-content p {
+     width: 35%;
+   }
+
+   .contact-section .content-wrapper h2 {
+     width: 40%;
+   }
+
+   .contact-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .faq .content-wrapper {
+     justify-content: space-between;
+     align-items: flex-start;
+   }
+
+   .faq  h2{
+     width: 100%;
+   }
+
+   .faq-content {
+     flex-basis: 40%;
+   }
 
 }
 
