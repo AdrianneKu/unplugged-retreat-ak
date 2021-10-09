@@ -253,10 +253,12 @@ textarea {
      margin: 30px 0;
      text-align: center;
    }
-
-   .features-item-description p {
-
+   
+   .features i {
+     font-size: 3.75em;
+     margin-bottom: 40px;
    }
+
 
   .reviews {
     display: flex;
@@ -520,21 +522,24 @@ textarea {
      display: flex;
      justify-content: space-between;
      flex-flow: row nowrap;
-     flex-basis: 26%;
+     flex-basis: 36%;
+     flex-direction: column;
      padding: 0 26px;
+     text-align: center;
    }
 
    .features h2 {
-     width: 90%;
+     font-size: 2.25em;
    }
 
-   .reviews .content-wrapper {
-
+   .reviews img {
+     width: 40%;
    }
 
    .reviews article {
      display: flex;
      justify-content: space-around;
+     flex-basis: 40%;
    }
 
    .mission .content-wrapper h2 {
