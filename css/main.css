@@ -181,7 +181,6 @@ header figure {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0 auto;
 }
 
 .header-divider {
